@@ -31,8 +31,9 @@ public class Lab {
      */
     public String arrayToString(int[] nums){
         String str = new String();
+        
         for(int i = 0; i < nums.length; i++) {
-            
+
             str += nums[i] + " ";
             
         }
